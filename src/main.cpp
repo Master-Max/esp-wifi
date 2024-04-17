@@ -4,6 +4,8 @@
 
 Preferences preferences;
 
+WiFiServer server(80);
+
 #ifndef LED_BUILTIN
   #define LED_BUILTIN 2
 #endif
